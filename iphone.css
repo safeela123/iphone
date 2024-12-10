@@ -1,0 +1,219 @@
+/* .para{
+    height:5000px;
+    width:1400px;
+    background-color:rgb(247, 246, 246);
+} */
+.navigation{
+    color:rgba(255, 255, 255, 0.829);
+    height:40px;
+    width:1318px;
+    background-color:black;
+    font-family:arial "sans-serif" "times new romen";
+    font-size:15px;
+    font-weight:400;
+    font-style: normal;
+    text-align:200px 00px;
+    margin:0px;
+    margin-top:3px;
+    position:absolute;
+    top:-2px;
+    left:0px;
+}
+.text{
+    color:white;
+    height:50px;
+    width:1318px;
+    background-color:rgb(43, 41, 41);
+    position:absolute;
+    top:40px;
+    left:00px;
+    font-size:18px;
+    text-align:center;
+    background-size:20px;
+    margin:0px;
+}
+ .photo{
+    height:600px;
+    width:1400px;
+    background-image:url("https://www.designinfo.in/wp-content/uploads/2024/09/Apple-iPhone-16-Pro-128GB-Black-Titanium-1.webp");
+    background-size:contain;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-color:black;
+    transform:translate(-20px,70px);
+    font-size:30px;
+}
+.btn1{
+    height:100px;
+    width:1318px;
+    transform:translate(600px,-60px);  
+}
+.secondpic{
+    height:800px;
+    width:1318px;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT92AkrubbnzqmYfrGW7fQDK69msaiMbJ6PTw&s");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:contain;
+    transform:translate(-10px,-30px);
+}
+.btn2{
+    height:100px;
+    width:1318px;
+    transform:translate(600px,-150px);  
+}
+.thirdpic{
+    height:800px;
+    width:1318px;
+    background-color:blue;
+    background-image:url("data:image/jpeg;base64,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");
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    background-color:rgba(255, 215, 215, 0);
+    transform:translate(-10px,-165px);
+}
+.btn3{
+    height:10px;
+    width:1318px;
+    transform:translate(620px,-400px);  
+}
+ .fourth{
+    height:700px;
+    width:1318px;
+    background-color:white;
+    transform:translate(-10px,-180px);
+    position:relative;
+}
+ .fourth .fifthpic{
+    height:700px;
+    width:800px;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoCju7K72i1WpX1tHj2y7ISHBJ1QgmuNoQhA&s");
+    background-repeat:no-repeat;
+    display:inline-block;
+    transform:translate(00px,00px);
+    /* transform:scale(1.5); */
+    position:absolute;
+    background-size:contain;
+   }
+   .btn4{
+    height:200px;
+    width:400px;
+    transform:translate(180px,500px);  
+    background-color:black;
+    color:white;
+    text-align:left;
+}
+  .fourth .sixthpic{
+    height:700px;
+    width:800px;
+    background-image:url("https://pbs.twimg.com/media/GXDjXPdXwAAkxpi?format=jpg&name=4096x4096");
+    background-repeat:no-repeat;
+    display:inline-block;
+    transform:translate(600px,00px);
+    /* transform:scale(1.5); */
+    position:absolute;
+    background-size:700px 800px;
+   }
+   .btn5{
+    height:150px;
+    width:400px;
+    transform:translate(290px,295px); 
+    background-color:white;
+   }
+  .s7th{
+    height:700px;
+   width:1318px;
+   background-color:white;
+   transform:translate(-10px,-180px);
+   position:relative;
+}
+.e8th{
+height:700px;
+width:700px;
+background-image:url("https://i.ebayimg.com/images/g/ZpYAAOSwFCZl5tBU/s-l400.png");
+background-repeat:no-repeat;
+display:inline-block;
+transform:translate(00px,20px);
+/* transform:scale(1.5); */
+position:absolute;
+background-size:600px 500px;
+} 
+.btn6{
+    height:100px;
+    width:400px;
+    transform:translate(200px,40px);  
+    background-color:rgb(248, 244, 244);
+}
+.n9th{
+height:700px;
+width:700px;
+background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6S58S03UYj85MyBn3voLeTWlANMIJYsxDALPWKcG2SyVNwTNbXNp_iBdtRH7SNB9_Rxs&usqp=CAU");
+background-repeat:no-repeat;
+display:inline-block;
+transform:translate(750px,10px);
+/* transform:scale(1.5); */
+position:absolute;
+background-size:500px 500px;
+}
+.btn7{
+    height:100px;
+    width:400px;
+    transform:translate(180px,100px);  
+} 
+
+.t10th{
+    height:700px;
+width:1318px;
+background-color:white;
+transform:translate(-10px,-180px);
+position:relative;
+}
+.l11th{
+height:700px;
+width:700px;
+background-image:url("https://www.cnet.com/a/img/resize/0766ccfeddf31c2dfef2aeaba76bd1767ecf4172/hub/2021/10/18/f473f425-acff-4c22-bd62-3ca924a6e2f0/screenshot-2021-10-18-at-18-08-52.png?auto=webp&fit=crop&height=900&width=1200");
+background-repeat:no-repeat;
+display:inline-block;
+transform:translate(00px,-160px);
+/* transform:scale(1.5); */
+position:absolute;
+background-size:contain;
+}
+.btn8{
+    height:50px;
+    width:400pxpx;
+    transform:translate(250px,120px);  
+    background-color:rgb(255, 255, 255);
+} 
+.t12th{
+height:800px;
+width:700px;
+background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQusncvScby9sj9RQvLWr3TXwEeYI24ZcoRJw&shttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQusncvScby9sj9RQvLWr3TXwEeYI24ZcoRJw&s");
+background-repeat:no-repeat;
+display:inline-block;
+transform:translate(750px,-160px);
+/* transform:scale(1.5); */
+position:absolute;
+background-size:600px 520px;
+}
+.btn9{
+    height:100px;
+    width:400px;
+    transform:translate(250px,205px);  
+} .para{
+    height:800px;
+    width: 900px;
+    box-sizing:content-box;
+    transform:translate(-500px,450px);
+    font-size:15px;
+    line-height:1.5;
+    color:rgb(107, 104, 104);
+}
+.table{
+    height:1000px;
+    width:900px;
+    box-sizing:content-box;
+    transform:translate(-500px,330px);
+    color:rgb(97, 97, 97);
+}
