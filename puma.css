@@ -304,6 +304,7 @@ height:350px;
  overflow:scroll;
  transform:translate(0px,200px);
  justify-content:space-between;
+ width:100%;
 }
 
 .shoes .s1{
